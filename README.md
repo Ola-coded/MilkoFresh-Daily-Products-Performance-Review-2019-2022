@@ -12,10 +12,82 @@ The aim of this dashboard analysis is to:
 •	Understand consumer demand patterns across storage types and sales channels
 •	Highlight opportunities to enhance distribution, inventory, and profitability
 
+Methodology
+
+Data Collection
+
+Dataset Sources: https://www.kaggle.com/datasets/suraj520/dairy-goods-sales-dataset
+
+Timeframe: 2019 to 2022.
+
+Data Points Captured:
+
+Brand and Product names
+
+Sales revenue
+
+Sales dates
+
+Channels (Retail, Wholesale, Online)
+
+Storage type (Refrigerated, Frozen, etc.)
+
+Reorder quantities
+
+Locations (e.g., Chandigarh, Delhi)
+
+ 
+Data Cleaning & Preparation
+
+o   Handled using Microsoft Excel
+
+o   Removal of duplicates or null entries
+
+o   Standardization of product and brand names
+
+o   Mapping product IDs to readable names
+
+o   Ensuring correct data types (e.g., dates, currencies, quantities)
+
+o   Aggregating sales by brand, product, channel, and location
+
+
+ Data Analysis
+
+Revenue Aggregation:
+
+Total sales computed per year/month.
+
+Grouping and summarizing by:
+
+Brand
+
+Product
+
+Channel
+
+Location
+
+Storage type
+
+
+Trend Analysis:
+
+Monthly performance to identify high/low seasons.
+
+Product Movement:
+
+Identification of most reordered products (liters/kg).
+
+Sales Ranking:
+
+Determined top brands, top products, and best locations based on revenue.
+
+
 Dashboard Overview
 
 This dashboard includes key visual breakdowns:
-•	KPI Cards: Highlight top-performing brand, product, location, and channel
+•	Cards: Highlight top-performing brand, product, location, and channel
 •	Bar Charts: Show revenue comparisons by product, brand, and location
 •	Pie Chart: Reveals the share of revenue by sales channel
 •	Line Chart: Displays monthly sales trends
@@ -75,5 +147,4 @@ o	Continue expanding retail footprints in high-performing regions, especially Ch
 
 6.	Revisit Storage for Low-Performing Products
 o	Products in Ambient and Tetra Pack categories should be evaluated for pricing, placement, or reformulation to increase demand or reduce waste.
-
 
